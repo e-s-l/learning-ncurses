@@ -1,4 +1,4 @@
-all: mvbox
+all: mvbox.out
 
-mvbox: mvbox.cpp
-	g++ -o mvbox mvbox.cpp -lncurses
+mvbox.out: mvbox.cpp
+	g++ -o mvbox.out mvbox.cpp -lncurses

@@ -1,5 +1,5 @@
 
-all: getvport
+all: getvport.out
 
-getvport: getvport.cpp
-	g++ getvport.cpp -o getvport -lncurses
+getvport.out: getvport.cpp
+	g++ getvport.cpp -o getvport.out -lncurses
